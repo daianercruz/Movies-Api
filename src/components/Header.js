@@ -1,9 +1,12 @@
-import { MainMenu } from "./MainMenu";
+import { HeaderContainer } from "../styles/HeaderContainer";
+import { MainMenu } from "../components/MainMenu";
 
 export const Header = () => (
-    <header>
+    <HeaderContainer>
+   
         <h1>Movies</h1>
-
-<MainMenu />
-    </header>
+        
+        <MainMenu />
+    
+    </HeaderContainer>
 );
