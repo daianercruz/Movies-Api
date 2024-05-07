@@ -4,5 +4,6 @@ export const MovieItem = ({title, id}) => (
 
     <li>
        <Link to={`movie/${id}`}> {title} </Link>
+       
     </li>
 );
